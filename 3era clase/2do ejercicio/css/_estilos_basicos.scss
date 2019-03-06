@@ -1,0 +1,50 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+}
+//clase padre
+
+.boton{
+	border-radius:30px;
+	border: 2px solid $color-input;
+	height:40px;
+}
+
+.formulario{
+	&-registro{
+		width:50%;
+		margin:auto;
+//Funciones de colores
+
+//lighten($color-formulario,15%);
+//darken($color-formulario,15%);
+//grayscale($color-formulario);
+
+		background:darken($color-formulario,15%);
+		padding: $padding-general;
+	}
+	&-input{
+		@extend .boton;
+		border-radius:30px;
+		border:2px solid $color-input;
+		width:90%;
+		padding:$padding-general - 10px;
+		&-contenedor{
+			margin: $padding-general + 3px 0;
+			&:last-child{
+			text-align:center;
+			}
+
+			label{
+				display:block;
+				margin:$padding-general;
+			}
+		}
+	}
+	&-button{
+		//@extend .boton;
+
+		@include estilos-boton(10px,1px,green);
+	}
+}

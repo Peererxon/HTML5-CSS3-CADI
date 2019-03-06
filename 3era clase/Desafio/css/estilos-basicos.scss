@@ -1,0 +1,117 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+	text-decoration:none;
+	font-family: Century Gothic;
+}
+
+.navegacion{
+    height: 100vh;
+    width: 17%;
+    background: $morado;
+    display: inline-block;
+    position: fixed;
+}
+
+.contenedor{
+	width: 70%;
+    float: right;
+}
+
+header{
+	position: relative;
+	top: 50px;
+}
+
+figure{
+	text-align: center;
+}
+
+figure img{
+	width: 140px;
+}
+.navegacion_links{
+	position: relative;
+	top: 100px;
+	text-align: right;
+	right: 10%;
+}
+nav ul li a{
+	color: white;
+	font-size: 20px;
+}
+
+nav ul li{
+	border-bottom: 1px solid white;
+	margin-top: 25px;
+}
+.titulo{
+	position: relative;
+    top: 8vh;
+    right: 10%;
+    color: $morado;
+
+}
+.portafolio{
+	display:block;
+	position: relative;
+    right: 10%;
+    top: 108px;
+}
+
+.tarjeta_presentacion{
+	display: inline-block;
+    width: 49%;
+}
+
+.tarjeta_presentacion img{
+	width: 91%;
+}
+//clase mama(soy es yo)
+._tarjeta_presentacio_contenido{
+	padding: 5px;
+    position: relative;
+    bottom: 4px;
+    width: 89%;
+    text-align: center;
+    color: white;
+
+}
+
+.tarjeta-presentacion-contenido-1{
+	z-index: 2; 
+}
+.tarjeta-presentacion-contenido-1{
+	@extend ._tarjeta_presentacio_contenido;
+    background: $Rosado;
+    overflow: hidden;
+}
+
+.tarjeta-presentacion-contenido-2{
+	@extend ._tarjeta_presentacio_contenido;
+    background: $Azul;
+}
+
+.tarjeta-presentacion-contenido-3{
+	@extend ._tarjeta_presentacio_contenido;
+    background: $morado;
+}
+
+.tarjeta-presentacion-contenido-4{
+	@extend ._tarjeta_presentacio_contenido;
+    background: $Naranja;
+}
+
+.proyecto-texto{
+	display: none;
+	width: 100%;
+    background: lightblue;
+    padding: 100%;
+    position: absolute;
+    bottom: 0;
+    transform: translatex(100%);
+    transition: all .5s;
+    font-size: 20px;
+    font-weight: bold;
+}

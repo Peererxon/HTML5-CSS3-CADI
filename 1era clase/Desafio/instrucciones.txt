@@ -1,0 +1,10 @@
+1.- Realizar la maqueta que aparece en la imagen (idéntica, incluyendo los números), utilizando grillas fluidas.
+
+2.- Definir un estilo para las resoluciones menores a: 320px, 768px y 1024px, mediante puntos de quiebre en el CSS usando media query (@media).
+
+3.- Para el ítem anterior, crear correctamente los archivos HTML y CSS necesarios.
+
+4.- Usar un media query para realizar una versión imprimible modificando las cajas de colores a negro.
+
+5.- Agregar un media query adicional para establecer lo siguiente: cuando la resolución sea mayor a 1200px y su orientación sea horizontal 
+(landscape), modificar el color de fondo blanco a azul y las cajas de colores a blanco.

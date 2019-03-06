@@ -1,0 +1,20 @@
+!!!5
+%html
+	%head
+		%meta(charset="utf-8")
+		%title SASS avanzado tercera clase htmlIII
+		%link(href="css/main.css" rel="stylesheet" type="text/css")
+	%body
+		%form(name="frm-registro" class="formulario-registro")
+			.formulario-input-contenedor
+				%label(for="nombre") Nombre
+				%input(type="text" name="nombre" class="formulario-input" placeholder="Ej: Pedro,luisa")
+			.formulario-input-contenedor
+				%label(for="nombre") Apellido
+				%input(type="text" name="apellido" class="formulario-input" placeholder="Ej: rodriguez,perez")
+			.formulario-input-contenedor
+				%label(for="correo") Correo
+				%input(type="text" name="correo" class="formulario-input" placeholder="Ej: Pedro,luisa")
+			.formulario-input-contenedor
+				%input(type="submit" name="registrarse" class="formulario-button" value="registrar")
+

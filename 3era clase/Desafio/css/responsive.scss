@@ -1,0 +1,192 @@
+@media screen and (min-width: 320px){
+ *{
+	padding:0;
+	margin:0;
+	border:0;
+	text-decoration:none;
+	font-family: Century Gothic;
+}
+
+.navegacion{
+    height: 368px;
+    width: 100%;
+    background: $morado;
+    display: inline-block;
+    position: static;
+}
+
+.contenedor {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+
+.navegacion_links{
+    position: relative;
+    top: 0px;
+    text-align: center;
+    right: 0%;
+}
+nav ul li a{
+	color: white;
+	font-size: 20px;
+}
+
+nav ul li{
+	border-bottom: 1px solid white;
+	margin-top: 25px;
+}
+.titulo{
+	position: relative;
+    top: 8vh;
+    right: 23%;
+    color: $morado;
+
+}
+.portafolio{
+	display:block;
+	position: relative;
+    right: 0%;
+    top: 108px;
+}
+
+.tarjeta_presentacion {
+    display: inline-block;
+    width: 100%;
+}
+._tarjeta_presentacio_contenido{
+    position: relative;
+    left: 4%;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width:900px){
+	.encabezado{
+		height: 100px;
+		text-align: center;
+	}
+	header{
+		position:static;
+	}
+
+	figure{
+	position: relative;
+	right: 37%;
+    top: 40px;
+	}
+
+	nav{
+		float: right;
+	}
+	nav li {
+		display: inline-block;
+	}
+
+	nav ul li{
+    border-bottom: 0px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 52px;
+	}
+	.contenedor{
+		width: 78%;
+	}
+
+	.navegacion{
+    height: 158px;
+    width: 100%;
+    position: static;
+	}
+
+    .navegacion_links {
+    top: -42px;
+    text-align: right;
+    right: 7%;
+	}
+
+._tarjeta_presentacio_contenido{
+    width: 88%;
+    font-size: 11px;
+    }
+
+
+}
+
+//version para ver netflix (tablet acostada)
+@media screen and (min-width: 768px) and (orientation: landscape){
+
+	.portafolio {
+    top: 66px;
+	}
+
+	.encabezado{
+		height: 100px;
+		text-align: center;
+	}
+	header{
+		position:static;
+	}
+
+	figure{
+	position: relative;
+	right: 37%;
+    top: 40px;
+	}
+
+	nav{
+		float: right;
+	}
+	nav li {
+		display: inline-block;
+	}
+
+	nav ul li{
+    border-bottom: 0px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 52px;
+	}
+	.contenedor{
+		width: 88%;
+	}
+
+	.portafolio{
+		right: 4%;
+	}
+
+	.navegacion{
+    height: 158px;
+    width: 100%;
+    position: static;
+	}
+
+    .navegacion_links {
+    top: -42px;
+    text-align: right;
+    right: 7%;
+	}
+
+._tarjeta_presentacio_contenido{
+    width: 88%;
+    font-size: 11px;
+    }
+
+    .tarjeta_presentacion {
+    display: inline-block;
+    width: 24%;
+	}
+
+
+	.titulo{
+		right: 4%;
+	}
+}
+
+@media screen and (min-width: 1024px){
+
+}
+
+//esta la dejo vacia porque se supone que es la que esta en estilos-basicos.scss
+//veo que en la version de pc agarra por defecto la version de tablet, no encuentro el porque. la version desktop se supone
+//Esta en estilos-basicos.scss. culpa de la canaima chavista, insisto.. :p

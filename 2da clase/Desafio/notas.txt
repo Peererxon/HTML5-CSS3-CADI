@@ -1,0 +1,12 @@
+Ya que el halm se pone chavista cuando se intentan hacer comentarios, los hare por aqui.
+
+El div class="servicios es para controlar las 4 imagenes y sus contenidos para llamarlos con una instruccion simple posterior
+
+El div Id="tarjeta_presentacion1,2,3,y 4" es para ubicar las imagenes
+
+El div ._tarjeta_presentacio_contenido es para el color debajo de cada imagen y sus "titulos"
+
+Profe si tiene alguna recomendacion para optimizar mas el html con los divs y la distribucion en si (osea quesi tengo cosas de demas) me gustaria que me lo dejara como observacion
+al corregir esto
+
+#prayforandreaDon´tletwe

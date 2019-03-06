@@ -1,0 +1,12 @@
+Realizar las siguientes actividades:
+Nota: enviar todos los archivos SASS, CSS, HTML e imágenes.
+
+1.- Según la estructura HTML creada en el desafío anterior, debe realizar los estilos correspondientes para que la página web (one page) se vea idéntica a la imagen adjuntada.
+
+2.- Crear un archivo main.scss, variables.scss, mixins.scss, estilos-basicos.scss, responsive.scss y todo debe compilarse a main.css. Nota: en el archivo responsive.scss debe crear los puntos de quiebre para las versiones responsives: 1024px, 768px y 320px.
+
+3.- Maquetar las versiones responsives según las interfaces adjuntadas para: escritorio, tablet en vertical y horizontal, y teléfono.
+
+4.- Debe manejar los colores, tamaños u otros valores que crea necesarios con variables sass. Adicionalmente, requerirá anidar selectores, extender propiedades de clases (herencia) con elementos que posean características similares.
+
+5.- Cuando el usuario pose el mouse sobre cada proyecto del portafolio, el color de fondo que rodea al nombre cubrirá a toda la imagen y se mostrarán los detalles del proyecto (texto adjuntado).

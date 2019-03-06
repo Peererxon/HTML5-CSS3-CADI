@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.boton, .formulario-input {
+  border-radius: 30px;
+  border: 2px solid red;
+  height: 40px;
+}
+
+.formulario-registro {
+  width: 50%;
+  margin: auto;
+  background: #72bcd4;
+  padding: 20px;
+}
+
+.formulario-input {
+  border-radius: 30px;
+  border: 2px solid red;
+  width: 90%;
+  padding: 10px;
+}
+
+.formulario-input-contenedor {
+  margin: 23px 0;
+}
+
+.formulario-input-contenedor:last-child {
+  text-align: center;
+}
+
+.formulario-input-contenedor label {
+  display: block;
+  margin: 20px;
+}
+
+.formulario-button {
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 20px;
+}

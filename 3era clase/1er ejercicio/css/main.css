@@ -1,0 +1,26 @@
+.proyecto {
+  width: 30%;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.proyecto:hover .proyecto-texto {
+  transform: translatex(0%);
+}
+
+.proyecto-imagen {
+  width: 100%;
+}
+
+.proyecto-texto {
+  width: 100%;
+  background: lightblue;
+  padding: 1.5%;
+  position: absolute;
+  bottom: 0;
+  transform: translatex(100%);
+  transition: all .5s;
+  font-size: 20px;
+  font-weight: bold;
+}

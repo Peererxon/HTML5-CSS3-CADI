@@ -1,0 +1,6 @@
+//esto es como una funcion
+@mixin estilos-boton($cantidad-radio,$borde,$color-borde){
+	border-radius: $cantidad-radio;
+	border: $borde solid $color-borde;
+	padding:$padding-general;
+}

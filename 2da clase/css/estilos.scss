@@ -1,0 +1,60 @@
+
+$color-principal:lightgreen;
+$color-secundario:blue;
+$tamaño-caja:500px;
+
+body{
+	background:$color-principal;
+}
+
+.imagen{ 
+	background:$color-secundario;
+	width:$tamaño-caja - 200px;
+	height:$tamaño-caja;
+	text-align:center;
+
+	img{
+		width:55%;
+		margin-top:30%;
+		&:hover{
+			transform:scale(2);
+		}
+	}
+
+	&:hover{
+		background:gray;
+
+	}
+
+
+}
+
+#logo_nav{
+	display:inline-block;
+	position:relative;
+	left:45%;
+	width:20%;
+}
+
+section[class="galeria"]{
+	position:relative;
+	left:5%;
+}
+
+nav{
+	position:relative;
+	left:40%;
+}
+
+nav li{
+	display: inline-block;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: green;
+    margin:5px;
+}
+
+nav li a{
+	text-decoration:none;
+}

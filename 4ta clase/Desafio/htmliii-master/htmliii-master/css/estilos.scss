@@ -1,0 +1,150 @@
+*{
+	padding:0;
+	margin:0;
+	border:0;
+	text-decoration: none;
+	font-weight: bold;
+	font-family:$texto;
+}
+
+ul li{
+	color: white;
+	display: inline-block;
+	text-transform: capitalize;
+	padding:5px;
+	transition-duration:1s;
+		&:hover{
+			border-radius:2.5px;
+			background:$anaranjado;
+			transition-duration: 0.5s;
+		}
+}
+
+figure img{
+	width: 45%;
+}
+
+.fondo_negro{
+	width: 100%;
+	height: 100px;
+	background: $negro;
+}
+
+header{display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+section{
+	text-align: center;
+	font-family: $titulo;
+	font-size: 35px;
+	color: $anaranjado;
+}
+
+h2{
+	margin-left: 9%;
+    width: 81%;
+	padding-bottom: 30px;
+	border-bottom: 1px solid gray;
+}
+
+.clasequeusoparalanota{
+	&:hover{
+	opacity: 0.5;
+    filter: alpha(opacity=50);	
+	}
+
+}
+
+.todas-las-cajas{
+	display: grid;
+	grid-template-rows: repeat(5,150px);/*filas*/
+	grid-template-columns: repeat(11,auto);
+	grid-row-gap: 35px; /*espacio entre las filas*/
+	grid-column-gap:40px;/*espacio entre las columnas*/
+	margin-top: 20px;
+	width: 90%;
+
+	.grid-item{
+		@extend .clasequeusoparalanota;
+		&:nth-child(1){
+			background-image: url(../img/img1.jpeg);
+			@include espacios(2,5,1,2);
+		}
+
+		&:nth-child(2){
+			background-image: url(../img/img2.jpeg);
+			@include espacios(5,9,1,4);
+		}
+
+		&:nth-child(3){
+			background-image: url(../img/img3.jpeg);
+			@include espacios(9,12,1,2);
+		}
+
+		&:nth-child(4){
+			background-image: url(../img/img4.jpeg);
+			@include espacios(2,5,2,3);
+		}
+
+		&:nth-child(5){
+			background-image: url(../img/img5.jpeg);
+			@include espacios(9,12,2,3);
+		}
+
+		&:nth-child(6){
+			background-image: url(../img/img6.jpeg);
+			@include espacios(2,5,3,4);
+		}
+
+		&:nth-child(7){
+			background-image: url(../img/img7.jpeg);
+			@include espacios(9,12,3,4);
+		}
+
+		&:nth-child(8){
+			background-image: url(../img/img9.jpeg);
+			@include espacios(2,9,4,6);
+		}
+
+		&:nth-child(9){
+			background-image: url(../img/img8.jpeg);
+			@include espacios(9,12,4,6);
+		}
+	}
+}
+
+footer h3{
+	display: inline-block;
+	color: $anaranjado;
+	font-family:$titulo;
+}
+
+footer p{
+	display: inline-block;
+	color: white;
+}
+
+footer,h3,p+img{
+	text-align: center;
+	margin-top: 3%;
+}
+
+
+.footer-flex{
+    width: 60%;
+	display: flex;
+    justify-content: space-evenly;
+}
+
+.img-flex{
+	& img{
+		width: 2%;
+		height: 25px;
+		margin: 0px 5px 0px 5px;
+	}
+	padding-right: 20%;
+	display: flex;
+    justify-content: flex-end;
+}

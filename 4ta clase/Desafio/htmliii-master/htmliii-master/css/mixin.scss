@@ -1,0 +1,9 @@
+//Para las funciones
+@mixin espacios($iniciocolumna,$finalcolumna,$iniciofila,$finalfila){
+grid-column-start:$iniciocolumna;
+grid-column-end:$finalcolumna;
+grid-row-start:$iniciofila;
+grid-row-end:$finalfila;
+background-size: cover;
+object-fit: cover;
+} 

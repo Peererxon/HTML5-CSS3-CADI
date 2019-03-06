@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  font-family: Century Gothic; }
+
+.navegacion {
+  height: 100vh;
+  width: 17%;
+  background: #5e42a6;
+  display: inline-block;
+  position: fixed; }
+
+.contenedor {
+  width: 70%;
+  float: right; }
+
+header {
+  position: relative;
+  top: 50px; }
+
+figure {
+  text-align: center; }
+
+figure img {
+  width: 140px; }
+
+.navegacion_links {
+  position: relative;
+  top: 100px;
+  text-align: right;
+  right: 10%; }
+
+nav ul li a {
+  color: white;
+  font-size: 20px; }
+
+nav ul li {
+  border-bottom: 1px solid white;
+  margin-top: 25px; }
+
+.titulo {
+  position: relative;
+  top: 8vh;
+  right: 10%;
+  color: #5e42a6; }
+
+.portafolio {
+  display: block;
+  position: relative;
+  right: 10%;
+  top: 108px; }
+
+.tarjeta_presentacion {
+  display: inline-block;
+  width: 49%; }
+
+.tarjeta_presentacion img {
+  width: 91%; }
+
+._tarjeta_presentacio_contenido, .tarjeta-presentacion-contenido-1, .tarjeta-presentacion-contenido-2, .tarjeta-presentacion-contenido-3, .tarjeta-presentacion-contenido-4 {
+  padding: 5px;
+  position: relative;
+  bottom: 4px;
+  width: 89%;
+  text-align: center;
+  color: white; }
+
+.tarjeta-presentacion-contenido-1 {
+  z-index: 2; }
+
+.tarjeta-presentacion-contenido-1 {
+  background: #fe7472;
+  overflow: hidden; }
+
+.tarjeta-presentacion-contenido-2 {
+  background: #749ffe; }
+
+.tarjeta-presentacion-contenido-3 {
+  background: #5e42a6; }
+
+.tarjeta-presentacion-contenido-4 {
+  background: #ffb274; }
+
+.proyecto-texto {
+  display: none;
+  width: 100%;
+  background: lightblue;
+  padding: 100%;
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translatex(100%);
+  -ms-transform: translatex(100%);
+  transform: translatex(100%);
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  font-size: 20px;
+  font-weight: bold; }
+
+@media screen and (min-width: 320px) {
+  * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: Century Gothic; }
+  .navegacion {
+    height: 368px;
+    width: 100%;
+    background: #5e42a6;
+    display: inline-block;
+    position: static; }
+  .contenedor {
+    width: 100%;
+    float: none;
+    text-align: center; }
+  .navegacion_links {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    right: 0%; }
+  nav ul li a {
+    color: white;
+    font-size: 20px; }
+  nav ul li {
+    border-bottom: 1px solid white;
+    margin-top: 25px; }
+  .titulo {
+    position: relative;
+    top: 8vh;
+    right: 23%;
+    color: #5e42a6; }
+  .portafolio {
+    display: block;
+    position: relative;
+    right: 0%;
+    top: 108px; }
+  .tarjeta_presentacion {
+    display: inline-block;
+    width: 100%; }
+  ._tarjeta_presentacio_contenido, .tarjeta-presentacion-contenido-1, .tarjeta-presentacion-contenido-2, .tarjeta-presentacion-contenido-3, .tarjeta-presentacion-contenido-4 {
+    position: relative;
+    left: 4%; } }
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .encabezado {
+    height: 100px;
+    text-align: center; }
+  header {
+    position: static; }
+  figure {
+    position: relative;
+    right: 37%;
+    top: 40px; }
+  nav {
+    float: right; }
+  nav li {
+    display: inline-block; }
+  nav ul li {
+    border-bottom: 0px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 52px; }
+  .contenedor {
+    width: 78%; }
+  .navegacion {
+    height: 158px;
+    width: 100%;
+    position: static; }
+  .navegacion_links {
+    top: -42px;
+    text-align: right;
+    right: 7%; }
+  ._tarjeta_presentacio_contenido, .tarjeta-presentacion-contenido-1, .tarjeta-presentacion-contenido-2, .tarjeta-presentacion-contenido-3, .tarjeta-presentacion-contenido-4 {
+    width: 88%;
+    font-size: 11px; } }
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+  .portafolio {
+    top: 66px; }
+  .encabezado {
+    height: 100px;
+    text-align: center; }
+  header {
+    position: static; }
+  figure {
+    position: relative;
+    right: 37%;
+    top: 40px; }
+  nav {
+    float: right; }
+  nav li {
+    display: inline-block; }
+  nav ul li {
+    border-bottom: 0px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 52px; }
+  .contenedor {
+    width: 88%; }
+  .portafolio {
+    right: 4%; }
+  .navegacion {
+    height: 158px;
+    width: 100%;
+    position: static; }
+  .navegacion_links {
+    top: -42px;
+    text-align: right;
+    right: 7%; }
+  ._tarjeta_presentacio_contenido, .tarjeta-presentacion-contenido-1, .tarjeta-presentacion-contenido-2, .tarjeta-presentacion-contenido-3, .tarjeta-presentacion-contenido-4 {
+    width: 88%;
+    font-size: 11px; }
+  .tarjeta_presentacion {
+    display: inline-block;
+    width: 24%; }
+  .titulo {
+    right: 4%; } }

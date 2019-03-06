@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+}
+
+header{
+	height: 400px;
+	
+}
+
+.encabezado_fondo{
+	height: 400px;
+	background: gray;
+	padding-top: 50px;
+}
+.encabezado{
+	width: 80%;
+	height: 100px;
+	background: white;
+	margin: auto;
+	padding: 10px;
+}
+
+figure{
+	width: 10%;
+	float: left;
+}
+
+figure img{
+	width: 100%;
+}
+
+.contenedor{
+	width: 90%;
+	margin: auto;
+}
+
+nav{
+	float: right;
+}
+
+nav li{
+	display: inline-block;
+	position: relative;
+	top: 40px;
+	margin-right: 10px;
+}
+
+nav li a{
+	color: #333;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+article{
+	background: lightblue;
+	padding: 15px;
+	float: left;
+	border-radius: 10px;
+	box-shadow: 0 0 10px red;
+}
+
+article img{
+	float: left;
+}
+
+/*mediante esto se buscara el archivo para el responsive
+@import url("responsive.css") (min-width:320px);*/
+/*Version telefono*/
+@media (min-width: 320px){
+	.encabezado{
+		height: 300px;
+		text-align: center;
+	}
+	figure,nav{
+		width: 100%;
+	}
+	figure img{
+		width: 60%;
+	}
+	nav li{
+		display: block;
+	}
+
+	article{
+	width: 90%;
+	margin-right: 20px;
+	margin-top: 10px;
+	}
+
+	article img{
+		width: 60%;
+		margin:0 15px 15px 0px;
+	}
+}
+
+/*Version tablet*/
+@media (min-width: 768px){
+	.encabezado{
+		height: 100px;
+		text-align: center;
+	}
+	figure{
+		width: 20%;
+		float: left;
+	}
+	figure img{
+		width: 60%;
+	}
+	nav {
+		width: 80%;
+		float: right;
+	}
+	nav li{
+		display: inline-block;
+	}
+	article{
+		width: 40%;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	article img{
+		width: 60%;
+		margin:0 15px 15px 0px;
+	}	
+}
+/*Version desktop*/
+@media (min-width: 1024px){
+	article{
+		width: 20%;
+		margin-right: 20px;
+		transition: 1s;
+		transition-property: all;
+	}
+	article:hover{
+		background: lightgreen;
+
+	}
+	article img{
+		width: 60%;
+		margin:0 15px 15px 0px;
+	}
+}
+/*impresoras (al momento de imprimir), la coma singnifica
+una "o" como en programacion*/
+@media print, screen and (min-width: 1024px){
+	.encabezado_fondo{
+		background: white;
+	}
+	figure{
+		display: none;
+	}
+
+	article{
+		background: black;
+		color: white;
+	}
+}

@@ -1,0 +1,9 @@
+body {
+  background: orange;
+}
+
+article {
+  background: lightgreen;
+  width: 300px;
+  height: 500px;
+}

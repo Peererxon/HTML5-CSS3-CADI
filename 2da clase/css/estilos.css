@@ -1,0 +1,55 @@
+body {
+  background: lightgreen;
+}
+
+.imagen {
+  background: blue;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+}
+
+.imagen img {
+  width: 55%;
+  margin-top: 30%;
+}
+
+.imagen img:hover {
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
+}
+
+.imagen:hover {
+  background: gray;
+}
+
+#logo_nav {
+  display: inline-block;
+  position: relative;
+  left: 45%;
+  width: 20%;
+}
+
+section[class="galeria"] {
+  position: relative;
+  left: 5%;
+}
+
+nav {
+  position: relative;
+  left: 40%;
+}
+
+nav li {
+  display: inline-block;
+  border-style: solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: green;
+  margin: 5px;
+}
+
+nav li a {
+  text-decoration: none;
+}
